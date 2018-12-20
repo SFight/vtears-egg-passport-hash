@@ -7,3 +7,5 @@ run/
 .DS_Store
 *.swp
 
+# 去除lock文件
+package-lock.json
