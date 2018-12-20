@@ -1,5 +1,5 @@
 {
-  "name": "egg-passport-hash",
+  "name": "vtears-egg-passport-hash",
   "version": "1.0.0",
   "description": "封装passport-hash到egg插件",
   "eggPlugin": {
