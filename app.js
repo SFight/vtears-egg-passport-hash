@@ -7,7 +7,7 @@
 const HashStrategy = require('passport-hash').Strategy;
 
 module.exports = app => {
-    const config = app.config.passportLocal;
+    const config = app.config.passportHash;
     config.passReqToCallback = true;
 
     app.passport.use(new HashStrategy(config, (req, hash, done) => {
