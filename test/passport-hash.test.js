@@ -3,21 +3,21 @@
 const mock = require('egg-mock');
 
 describe('test/passport-hash.test.js', () => {
-  let app;
-  before(() => {
-    app = mock.app({
-      baseDir: 'apps/passport-hash-test',
+    let app;
+    before(() => {
+        app = mock.app({
+            baseDir: 'apps/passport-hash-test',
+        });
+        return app.ready();
     });
-    return app.ready();
-  });
 
-  after(() => app.close());
-  afterEach(mock.restore);
+    after(() => app.close());
+    afterEach(mock.restore);
 
-  it('should GET /', () => {
-    return app.httpRequest()
-      .get('/')
-      .expect('hi, passportHash')
-      .expect(200);
-  });
+    it('should GET /', () => {
+        return app.httpRequest()
+            .get('/')
+            .expect('hi, passportHash')
+            .expect(200);
+    });
 });
