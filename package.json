@@ -37,9 +37,8 @@
     "autod": "autod"
   },
   "files": [
-    "app.js",
-    "agent.js",
-    "config"
+    "config",
+    "app.js"
   ],
   "ci": {
     "version": "8, 9"
@@ -51,7 +50,7 @@
   "bugs": {
     "url": "https://github.com/eggjs/egg/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-passport-hash#readme",
+  "homepage": "https://www.npmjs.com/package/vtears-egg-passport-hash",
   "author": "vtears",
   "license": "MIT"
 }
