@@ -9,3 +9,5 @@ run/
 
 # 去除lock文件
 package-lock.json
+# 去除生成的yml文件
+*.yml
