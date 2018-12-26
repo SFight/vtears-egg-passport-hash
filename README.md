@@ -1,4 +1,4 @@
-# egg-passport-hash
+# vtears-egg-passport-hash
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
@@ -27,7 +27,7 @@ Description here.
 ## Install
 
 ```bash
-$ npm i egg-passport-hash --save
+$ npm i vtears-egg-passport-hash --save
 ```
 
 ## Usage
@@ -36,7 +36,7 @@ $ npm i egg-passport-hash --save
 // {app_root}/config/plugin.js
 exports.passportHash = {
   enable: true,
-  package: 'egg-passport-hash',
+  package: 'vtears-egg-passport-hash',
 };
 ```
 
