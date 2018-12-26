@@ -1,4 +1,4 @@
-# egg-passport-hash
+# vtears-egg-passport-hash
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
@@ -49,7 +49,7 @@ egg-passport-hash 版本 | egg 1.x
 // config/plugin.js
 exports.passportHash = {
   enable: true,
-  package: 'egg-passport-hash',
+  package: 'vtears-egg-passport-hash',
 };
 ```
 
@@ -69,7 +69,7 @@ exports.passportHash = {
 
 ## 提问交流
 
-请到 [egg issues](https://github.com/eggjs/egg/issues) 异步交流。
+请到 [egg issues](https://github.com/SFight/vtears-egg-passport-hash/issues) 异步交流。
 
 ## License
 
